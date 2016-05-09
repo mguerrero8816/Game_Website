@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michael's Game</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="gamesite.css"
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navburger">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+        <div id="navburger" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Rules</a></li>
+            <li class="dropdown"><a href="" data-toggle="dropdown">
+              Cards
+              <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="">Base</a></li>
+                <li><a href="">Tier One</a></li>
+                <li><a href="">Tier Two</a></li>
+              </ul>
+            </li>
+            <li><a href="">Glossary</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="" class="fa fa-facebook" aria-hidden="true"></a></li>
+            <li><a href="" class="fa fa-twitter" aria-hidden="true"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+      <img class="img-responsive" id="headimage" src="http://images-cdn.moviepilot.com/images/c_fill,h_1080,w_1920/t_mp_quality/gdgt9dsdgobbmrfyifbf/this-is-why-you-should-be-playing-magic-the-gathering-which-color-will-you-choose-400566.jpg">
+
+
+    <div class="container">
+      <h1>Welcome to (Game Name Here)!</h1>
+
+      <hr>
+
+      <h1>Quick Intro</h1>
+      <p>
+        Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+      </p>
+
+      <hr>
+
+      <h1 class="text-center">Game Board</h1>
+
+      <img class="img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Chess_Board.svg">
+
+      <hr>
+
+      <h1>How to Play <a href="" class="btn btn-default">Rules</a></h1>
+      <p>
+        Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+      </p>
+
+      <hr>
+      <h1 class="text-center">Base Cards</h1>
+      <div class="btn-group" id="cardbar">
+        <a href="" class="btn btn-default">Base</a>
+        <a href="" class="btn btn-default">Tier 1</a>
+        <a href="" class="btn btn-default">Tier 2</a>
+      </div>
+
+
+      <br>
+      <div class="row">
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">Card Name
+                <a class="btn btn-default">Details</a>
+              </div>
+              <div class="panel-body">
+                <img class="leftimg" src="cardone.png">
+                Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">Card Name
+                <a class="btn btn-default">Details</a>
+              </div>
+              <div class="panel-body">
+                <img class="rightimg" src="cardone.png">
+                Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="panel panel-default">
+                <div class="panel-heading">Card Name
+                  <a class="btn btn-default">Details</a>
+                </div>
+                <div class="panel-body">
+                  <img class="leftimg" src="cardone.png">
+                  Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="panel panel-default">
+                <div class="panel-heading">Card Name
+                  <a class="btn btn-default">Details</a>
+                </div>
+                <div class="panel-body">
+                  <img class="rightimg" src="cardone.png">
+                  Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Card Name
+                    <a class="btn btn-default">Details</a>
+                  </div>
+                  <div class="panel-body">
+                    <img class="leftimg" src="cardone.png">
+                    Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Card Name
+                    <a class="btn btn-default">Details</a>
+                  </div>
+                  <div class="panel-body">
+                    <img class="rightimg" src="cardone.png">
+                    Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">Card Name
+                      <a class="btn btn-default">Details</a>
+                    </div>
+                    <div class="panel-body">
+                      <img class="leftimg" src="cardone.png">
+                      Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">Card Name
+                      <a class="btn btn-default">Details</a>
+                    </div>
+                    <div class="panel-body">
+                      <img class="rightimg" src="cardone.png">
+                      Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-6">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Card Name
+                        <a class="btn btn-default">Details</a>
+                      </div>
+                      <div class="panel-body">
+                        <img class="leftimg" src="cardone.png">
+                        Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">Card Name
+                        <a class="btn btn-default">Details</a>
+                      </div>
+                      <div class="panel-body">
+                        <img class="rightimg" src="cardone.png">
+                        Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+      <hr>
+      <h1>Quick Rules <a href="" class="btn btn-default">Rules</a></h1>
+      <p>
+        Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus.
+      </p>
+      <ol>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+        <li>Vestibulum auctor dapibus neque.</li>
+        <li>Nunc dignissim risus id metus.</li>
+        <li>Cras ornare tristique elit.</li>
+        <li>Vivamus vestibulum nulla nec ante.</li>
+        <li>Praesent placerat risus quis eros.</li>
+      </ol>
+      <hr>
+      <form class="form-horizontal">
+        <h1>About Us <a href="" class="btn btn-default">Contact</a></h1>
+      </form>
+      <div class="row">
+        <div class="col-sm-8">
+          <p>
+            Praesent hendrerit placerat varius. Donec at diam pellentesque, tempor arcu vel, dictum metus. Praesent posuere sit amet nisi non tincidunt. Nam mattis lectus nisl, eget lacinia velit vehicula in. Phasellus nec accumsan lacus. Duis tristique aliquet dui, at gravida dui cursus vitae. Nunc maximus lectus eu massa iaculis, eget suscipit ipsum molestie. Vivamus ut enim tellus. Ut dignissim, risus et vestibulum semper, lectus orci semper massa, a mattis diam arcu id enim. Quisque in nibh placerat, tempus velit sit amet, porta diam. Suspendisse ac lectus tortor.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-responsive" src="http://dailynewsdig.com/wp-content/uploads/2013/10/dog-stock-photos-9.jpg">
+        </div>
+      </div>
+      <hr>
+      <footer class="row">Copyright &copy; Felias Studio 2016</footer>
+      <br>
+
+    </div>
+
+
+
+  </body>
+
+</html>
